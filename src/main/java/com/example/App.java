@@ -20,7 +20,7 @@ public class App {
         Logger log = LoggerFactory.getLogger(App.class);
 
         try {
-            log.info("I am a Java app");
+            log.info("Hello, I am a Java app");
             log.info("Just logging stuff");
 
             throw new NullPointerException("Ooh noes! Something bad happened");
